@@ -1,0 +1,228 @@
+body {
+    background-color: #ECF0F1;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: "Source Sans Pro", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 5em;
+    line-height: 80%;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.float-right-big {
+    float: right;
+    width: 70%;
+}
+
+.float-left-small {
+    float: left;
+    width: 30%;
+}
+
+.float-right-small {
+    float: right;
+    width: 30%;
+}
+
+.float-left-big {
+    float: left;
+    width: 70%;
+}
+
+.vertical-left {
+    float: right;
+    text-align: right;
+    transform: rotate(270deg);
+    transform-origin: right bottom;
+    position: relative;
+    bottom: 1.49em;
+    padding: 0;
+}
+
+.vertical-right {
+    float: left;
+    text-align: left;
+    transform: rotate(90deg);
+    transform-origin: left bottom;
+    position: relative;
+    bottom: 1.49em;
+    padding: 0;
+}
+
+
+#about {
+    height: 40em;
+}
+
+
+#about p {
+    background-color: #2C3E50;
+    padding: 10em 5em 10em 5em;
+    color: white;
+    height: 3.7em;
+}
+
+#skills {
+    height: 40em;
+}
+
+
+#skills ul {
+    background-color: #E74C3C;
+    padding: 10em 5em 10em 5em;
+    color: white;
+    height: 8em;
+}
+
+#exp {
+    height: 40em;
+}
+
+#exp p {
+    background-color: #3498DB;
+    padding: 10em 5em 10em 5em;
+    color: white;
+    height: 8em;
+}
+
+#exp h2 {
+    text-align: left;
+    bottom: 2.29em;
+}
+
+#proj {
+    height: 40em;
+}
+
+#proj p {
+    background-color: cadetblue;
+    padding: 10em 5em 10em 5em;
+    color: white;
+    height: 8em;
+}
+
+
+#edu{
+    height: 40em;
+}
+#edu p {
+    background-color: crimson;
+    padding: 10em 5em 10em 5em;
+    color: white;
+    height: 8em;
+}
+
+
+#logo {
+    float: left;
+    padding: 15em 0 0 0;
+    margin: 0;
+    width: 50%;
+    text-align: center;
+}
+
+#logo img {
+    width: 10em;
+}
+
+#profile {
+    float: right;
+    padding: 10em 0 0 0;
+    width: 50%;
+    margin: 0;
+}
+
+#profile img {
+    height: 30em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10em 0 10em 0;
+    
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #777;
+    font-weight: 600;
+    margin: 1em
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+
+/* stroke */
+nav.stroke ul li a{
+  position: relative;
+}
+
+nav.stroke ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #000;
+  height: 1px;
+}
+
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+
+nav a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+}
+
+#contact {
+    height: 40em;
+}
+
+#contact p {
+    background-color: cadetblue;
+    padding: 10em 5em 10em 5em;
+    color: white;
+    height: 8em;
+}
+
+
+
+.is-centered {
+    text-align: center;
+}
+
+
+
