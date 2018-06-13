@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    min-width: 1027px;
 }
 
 h2 {
@@ -57,40 +58,75 @@ h2 {
     padding: 0;
 }
 
+.logo p{
+    font-size: 24pt;
+    padding: 1em 0 1.5em 0;
+}
+.logo img{
+    margin: auto;
+    margin-top: 10em;
+    display:block;
+    width: 40%;
+    max-width: 15em;
+    height: auto;
+}
 
 #about {
     height: 40em;
 }
 
+#about .float-right-big{
+    background-color: #2C3E50;
+}
 
 #about p {
-    background-color: #2C3E50;
-    padding: 10em 5em 10em 5em;
     color: white;
-    height: 3.7em;
+    width: 50%;
+    float: left;
+    display:block;
+    margin: 5em 0 0 5em;
+}
+
+#about img{
+    display:block;
+    width: auto;
+    float:right;
+    max-height: 30em;
+    padding:  0;
+    margin-right: 2em;
 }
 
 #skills {
     height: 40em;
 }
 
-
-#skills ul {
+#skills .float-left-big{
     background-color: #E74C3C;
-    padding: 10em 5em 10em 5em;
+}
+
+#skills .float-left-big div{
+    text-align: center;
+    padding: 2em 0 5em 0;
+}
+
+#skills ul li{
     color: white;
-    height: 8em;
+    display: block
 }
 
 #exp {
-    height: 40em;
+    height: 50em;
 }
 
+#exp .float-right-big{
+    background-color: #3498DB; 
+}
+
+#exp div p{
+    padding: 2em 3em 3em 3em;
+}
 #exp p {
-    background-color: #3498DB;
-    padding: 10em 5em 10em 5em;
     color: white;
-    height: 8em;
 }
 
 #exp h2 {
@@ -121,32 +157,10 @@ h2 {
 }
 
 
-#logo {
-    float: left;
-    padding: 15em 0 0 0;
-    margin: 0;
-    width: 50%;
-    text-align: center;
-}
-
-#logo img {
-    width: 10em;
-}
-
-#profile {
-    float: right;
-    padding: 10em 0 0 0;
-    width: 50%;
-    margin: 0;
-}
-
-#profile img {
-    height: 30em;
-}
 
 nav ul {
     margin: 0;
-    padding: 10em 0 10em 0;
+    padding: 0 0 10em 0;
     
 }
 
